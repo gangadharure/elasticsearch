@@ -1,0 +1,222 @@
+[[tsds]]
+== Time series data stream (TSDS)
+
+A time series data stream (TSDS) lets you model timestamped metrics data as one
+or more time series.
+
+// TODO: Replace XX% with actual percentage
+Using a TSDS lets you store metrics data more efficiently. In our benchmarks,
+metrics data stored in a TSDS uses XX% less disk space than a regular data
+stream.
+
+[discrete]
+[[tsds-concepts]]
+=== Key concepts
+
+This section explains important concepts related to the time series data
+model.
+
+[discrete]
+[[time-series]]
+==== Time series
+
+A time series is a sequence of timestamped observations for a specific entity.
+Each observation contains one or more repeated measurements. Taken together,
+these observations let you track changes to the entity over time. For example,
+you can track:
+
+* CPU and disk usage for a computer
+* The price of a stock
+* Temperature and humidity readings for a weather sensor
+
+If you plot a time series as a graph, one axis will always be the timestamp.
+
+image::images/data-streams/time-series-chart.svg[align="center"]
+
+In a TSDS, each {es} document represents an observation in a specific time
+series.
+
+A TSDS typically contains multiple time series. However, each document can only
+belong to one time series. A time series can't span multiple data streams.
+
+[discrete]
+[[time-series-dimension]]
+==== Dimensions
+
+Dimensions are field names and values that, in combination, uniquely identify a
+document's time series. Dimensions don't change across documents in the same
+time series.
+
+The matching index template for a TSDS must contain mappings for one or more
+dimensions. You mark a field as a dimension using the `time_series_dimension`
+mapping parameter. The following field types support the `time_series_dimension`
+parameter:
+
+* <<keyword-field-type,`keyword`>>
+* <<ip,`ip`>>
+* <<number,`byte`>>
+* <<number,`short`>>
+* <<number,`integer`>>
+* <<number,`long`>>
+* <<number,`unsigned_long`>>
+
+[discrete]
+[[time-series-metric]]
+==== Metrics
+
+Metrics are fields that contain measurements. While not required, TSDS documents 
+typically contain multiple metric fields.
+
+You mark a field as a metric using the `time_series_metric` mapping
+parameter. The parameter accepts metric types as values:
+
+.Valid values for `time_series_metric`
+[%collapsible]
+====
+// tag::time-series-metric-counter[]
+`counter`:: A whole number that only increases or resets to `0` (zero). For
+example, an error count or number of completed tasks.
+// end::time-series-metric-counter[]
++
+Only numeric and `aggregate_metric_double` fields support the `counter` metric
+type.
+
+// tag::time-series-metric-gauge[]
+`gauge`:: A whole or floating-point number that can increase or decrease. For
+example, a temperature or available disk space.
+// end::time-series-metric-gauge[]
++
+Only numeric and `aggregate_metric_double` fields support the `gauge` metric
+type.
+
+
+// tag::time-series-metric-histogram[]
+`histogram`:: A pair of numeric arrays that measure the distribution of values
+across predefined buckets. For example, response times by percentile.
+// end::time-series-metric-histogram[]
++
+Only `histogram` fields support the `histogram` metric type.
+
+
+// tag::time-series-metric-summary[]
+`summary`:: An array of aggregated values, such as `sum`, `avg`, `value_count`,
+`min`, and `max`.
+// end::time-series-metric-summary[]
++
+Only `aggregate_metric_double` fields support the `gauge` metric type.
+
+// tag::time-series-metric-null[]
+`null` (Default):: Not a time series metric.
+// end::time-series-metric-null[]
+====
+
+[discrete]
+[[tsds-differences-from-regular-data-streams]]
+=== Differences from regular data streams
+
+A TSDS works like a regular <<data-streams,data stream>> with some key
+differences. This section covers those differences.
+
+[discrete]
+[[time-series-mode]]
+==== Time series mode
+
+Like a regular data stream, a TSDS requires a matching index template that
+contains the `data_stream` object. For a TSDS, the `data_stream` object must
+contain an `index_mode` option of `time_series`.
+
+Backing indices in a TSDS have the `index.mode` index setting with a value of
+`time_series`. This indicates the index models data as a time series. While
+you can convert an existing regular data stream to a TSDS, you can't convert
+an existing index to `time_series` mode.
+
+[discrete]
+[[time-bound-backing-indices]]
+==== Time-bound backing indices
+
+In a TSDS, each backing index, including the write index, has a range of
+accepted `@timestamp` values. This range is defined by the
+`index.time_series.start_date` and `index.time_series.end_date` index settings.
+
+When you index a document to a TSDS, {es} adds the document to the appropriate
+backing index based on its `@timestamp` value. As a result, you can add
+documents to any backing index that can receive writes. This applies even if the
+index isn't the current write index.
+
+{es} automatically configures `index.time_series.start_date` and
+`index.time_series.end_date` settings as part of the index creation and rollover
+process for a TSDS. The accepted `@timestamp` ranges for neighboring backing
+indices border each other but never intersect or overlap. This ensures a TSDS
+document can never belong to more than one backing index.
+
+[discrete]
+[[tsds-look-ahead-time]]
+===== Look-ahead time
+
+{es} uses the `index.look_ahead_time` index setting to configure
+accepted `@timestamp` ranges for a TSDS's current write index. When you create a
+new write index for a TSDS, {es} calculates the index's
+`index.time_series.end_time` value as:
+
+```
+now() + index.look_ahead_time
+```
+
+At the <<ilm-polly-interval,`indices.lifecycle.poll_interval`>>, {es} checks if
+the write index has met the rollover criteria in the index lifecycle policy. If
+not, {es} recalculates the write index's `index.time_series.end_time` value as:
+
+```
+now() + index.look_ahead_time + indices.lifecycle.poll_interval
+```
+
+This continues until the write index rolls over. When the write index rolls
+over, {es} permanently sets its `index.time_series.end_time`. This value borders
+the `index.time_series.start_time` for the new write index. This ensures the
+`@timestamp` range for neighboring backing indices always border but never
+intersect or overlap.
+
+[discrete]
+[[dimension-based-routing]]
+==== Dimension-based routing
+
+In a TSDS, {es} uses the `index.routing_path` index setting to route documents
+with the same dimensions to the same index shards. Within each shard, {es} uses
+index sorting to order the shard's segments by `_tsid` and `@timestamp`. This
+ensures repeated field values are stored near each other for better compression.
+
+The `index.routing_path` setting supports wildcards. However, the setting value
+should only match plain `keyword` dimensions. {es} will reject any mapping
+updates that add scripted, runtime, or non-`keyword` fields that match the
+`index.routing_path` value.
+
+TSDS documents don't support a custom `_routing` value. Similarly, you can't
+require a `_routing` value in mappings for a TSDS.
+
+Similarly, a TSDS doesn't support `index.sort.*` index settings. A TSDS always
+sorts shard segments by `_tsid` and `@timestamp`.
+
+[discrete]
+[[tsid]]
+==== `_tsid` metadata field
+
+The `_tsid` (time series ID) metadata field identifies a document's time
+series. {es} generates a `_tsid` for each document in a TSDS.
+
+The `_tsid` value is a hash of the document's dimensions and data stream name.
+Within a TSDS, documents with the same dimensions have the same `_tsid` and are
+part of the same time series.
+
+The `_tsid` field is not queryable. However, you can use the `_tsid` field in
+aggregations and retrieve the `_tsid` value using the `fields` parameter.
+
+[discrete]
+[[tsds-doc-id]]
+==== Document `_id` generation
+
+For documents in a TSDS, the document `_id` value is a hash of the document's
+<<dimension-based-routing,routing dimensions>>, `_tsid` and `@timestamp`. When
+you add a document to a TSDS, you can't specify a custom document `_id`.
+
+include::set-up-tsds.asciidoc[]
+include::tsds-index-settings.asciidoc[]

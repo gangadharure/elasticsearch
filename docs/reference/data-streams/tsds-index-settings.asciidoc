@@ -1,0 +1,54 @@
+[[tsds-index-settings]]
+=== Time series index settings
+
+Backing indices in a time series data stream (TSDS) support the following index
+settings. For more information about how {es} uses these settings, refer to
+<<tsds>>.
+
+[[index-mode]]
+`index.mode`::
+(<<_static_index_settings,Static>>, string) Mode for the index. Valid values are
+<<time-series-mode,`time_series`>> and `null` (no mode).
++
+Indices with an `index.mode` of `time_series` are a backing index for a TSDS.
+
+[[index-time-series-start-date]]
+`index.time_series.start_date`::
+(<<_static_index_settings,Static>>, string) Earliest `@timestamp`
+value (inclusive) accepted by the index. Only indices with an `index.mode` of
+`time_series` support this setting. {es} automatically configures this setting
+as part of the TSDS index creation and rollover process.
+
+[[index-time-series-end-date]]
+`index.time_series.end_date`::
+(<<_static_index_settings,Static>>, string) Latest exclusive `@timestamp`
+value (exclusive) accepted by the index. Only indices with an `index.mode` of
+`time_series` support this setting. {es} automatically configures this setting
+as part of the TSDS index creation and rollover process.
+
+[[index-look-ahead-time]]
+`index.look_ahead_time`::
+(<<_static_index_settings,Static>>, <<time-units,time units>>) Interval used to
+calculate the ongoing `index.time_series.end_date` for the current write index
+of a TSDS. Only indices with an `index.mode` of `time_series` support this
+setting.
++
+For more information, refer to <<tsds-look-ahead-time>>.
+
+[[index-routing-path]]
+`index.routing_path`::
+(<<_static_index_settings,Static>>, string or array of strings) Plain `keyword`
+fields used to route documents in a TSDS to index shards. Supports wildcards
+(`*`). Only indices with an `index.mode` of `time_series` support this setting.
++
+This setting value should only match plain `keyword` dimensions. {es} will
+reject any mapping updates that add scripted, runtime, or non-`keyword` fields
+that match the `index.routing_path` value.
+
+[[index-mapping-dimension-fields-limit]]
+// tag::dimensions-limit[]
+`index.mapping.dimension_fields.limit`::
+experimental:[] (<<dynamic-index-settings,Dynamic>>, integer)
+Maximum number of <<time-series-dimension,time series dimensions>> for the
+index. Defaults to `16`.
+// end::dimensions-limit[]
