@@ -1,0 +1,3115 @@
+repo_name: gangadharure/elasticsearch
+report_id: ff74e2d091e780fb5bbe4fe63ca67e1b
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-15T15:42:25+00:00'
+requested_by: luigidellaquila
+provider: github
+branch: master
+detected_tools_count: 229
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch
+  detection_source: Repo Metadata
+- name: Groovy
+  description: A multi-faceted language for the Java platform
+  website_url: https://groovy-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/997/default_7ff5fcd857f42ad25149f659693d8930bffddf14.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/gangadharure/elasticsearch
+  detection_source: Repo Metadata
+- name: Mustache
+  description: Logic-less templates
+  website_url: http://mustache.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1142/197655.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/sql/qa/server/src/main/resources/geo/setup_test_geo.sql
+  detection_source: x-pack/plugin/sql/qa/server/src/main/resources/geo/setup_test_geo.sql
+  last_updated_by: Marios Trivyzas
+  last_updated_on: 2020-05-22 13:52:41.000000000 Z
+- name: Apache FreeMarker
+  description: A free Java-based template engine
+  website_url: http://freemarker.incubator.apache.org/index.html
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/4456/ymCgaIO0_400x400.jpg
+  detection_source_url: https://github.com/gangadharure/elasticsearch
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/distribution/docker/docker-compose.yml
+  detection_source: distribution/docker/docker-compose.yml
+  last_updated_by: Ioannis Kakavas
+  last_updated_on: 2020-12-23 19:00:49.000000000 Z
+- name: Project Reactor
+  description: Library for building non-blocking applications on JVM
+  website_url: https://projectreactor.io/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/5807/default_cbd8ab670309059d7e315252d307d409aa40d793.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-azure/build.gradle
+  detection_source: modules/repository-azure/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2021-06-07 17:20:46.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-gcs/build.gradle
+  detection_source: modules/repository-gcs/build.gradle
+  last_updated_by: Armin Braun
+  last_updated_on: 2021-07-05 19:57:30.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/sql/qa/server/build.gradle
+  detection_source: x-pack/plugin/sql/qa/server/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2020-07-07 09:29:26.000000000 Z
+- name: Minio
+  description: AWS S3 open source alternative written in Go
+  website_url: https://minio.io/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/4485/gTawkyAA.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/test/fixtures/minio-fixture/docker-compose.yml
+  detection_source: test/fixtures/minio-fixture/docker-compose.yml
+  last_updated_by: Francisco Fernández Castaño
+  last_updated_on: 2021-03-02 10:14:29.000000000 Z
+- name: 'Checkstyle '
+  description: A static code analysis tool
+  website_url: http://checkstyle.sourceforge.net/
+  version: '9.3'
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/2921/i3fm8awH_400x400.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-conventions/build.gradle
+  detection_source: build-conventions/build.gradle
+  last_updated_by: Rory Hunter
+  last_updated_on: 2022-02-07 10:34:43.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch
+  detection_source: Repo Metadata
+- name: FindBugs
+  description: An open-source static code analyser
+  website_url: http://findbugs.sourceforge.net/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/2662/kWjFjx3K_400x400.jpg
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/libs/core/build.gradle
+  detection_source: libs/core/build.gradle
+  last_updated_by: Tim Brooks
+  last_updated_on: 2018-01-15 16:59:01.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/.github/workflows/gradle-wrapper-validation.yml
+  detection_source: ".github/workflows/gradle-wrapper-validation.yml"
+  last_updated_by: Jonathan Leitschuh
+  last_updated_on: 2020-02-27 18:23:45.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/.ci/init.gradle
+  detection_source: ".ci/init.gradle"
+  last_updated_by: Rory Hunter
+  last_updated_on: 2019-11-13 10:14:04.000000000 Z
+- name: HAProxy
+  description: The Reliable, High Performance TCP/HTTP Load Balancer
+  website_url: http://www.haproxy.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Load Balancer / Reverse Proxy
+  image_url: https://img.stackshare.io/service/1179/preview.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/qa/remote-clusters/docker-compose.yml
+  detection_source: qa/remote-clusters/docker-compose.yml
+  last_updated_by: Yannick Welsch
+  last_updated_on: 2020-02-03 08:44:55.000000000 Z
+- name: Kibana
+  description: Visualize your Elasticsearch data and navigate the Elastic Stack
+  website_url: https://www.elastic.co/kibana
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/1722/Image_2019-05-20_at_4.53.31_PM.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/docs/reference/setup/install/docker/docker-compose.yml
+  detection_source: docs/reference/setup/install/docker/docker-compose.yml
+  last_updated_by: Fabio Busatto
+  last_updated_on: 2022-02-11 20:02:45.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/test/idp-fixture/idp/shibboleth-idp/conf/logback.xml
+  detection_source: x-pack/test/idp-fixture/idp/shibboleth-idp/conf/logback.xml
+  last_updated_by: Ioannis Kakavas
+  last_updated_on: 2019-03-12 21:54:23.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  version: 1.9.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-tools-internal/build.gradle
+  detection_source: build-tools-internal/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2020-06-12 11:34:53.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/test/fixtures/nginx-fixture/docker-compose.yml
+  detection_source: test/fixtures/nginx-fixture/docker-compose.yml
+  last_updated_by: Francisco Fernández Castaño
+  last_updated_on: 2021-03-26 14:23:44.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-azure/build.gradle
+  detection_source: modules/repository-azure/build.gradle
+  last_updated_by: Przemyslaw Gomulka
+  last_updated_on: 2022-02-09 10:01:29.000000000 Z
+- name: Spock Framework
+  description: The Enterprise-ready testing and specification framework
+  website_url: http://spockframework.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/5548/UB74SoK2_400x400.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-tools-internal/build.gradle
+  detection_source: build-tools-internal/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2022-01-27 08:57:47.000000000 Z
+- name: Vagrant
+  description: A tool for building and distributing development environments
+  website_url: http://www.vagrantup.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Management
+  image_url: https://img.stackshare.io/service/768/150px-Vagrant.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/Vagrantfile
+  detection_source: Vagrantfile
+  last_updated_by: Rory Hunter
+  last_updated_on: 2019-10-05 14:40:42.000000000 Z
+- name: Dataform
+  description: A framework for managing SQL based data operations.
+  website_url: https://dataform.co/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Analytics
+  sub_category: Business Intelligence
+  image_url: https://img.stackshare.io/service/11236/Group_22__3_.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-tools-internal/build.gradle
+  detection_source: build-tools-internal/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2022-01-27 08:57:47.000000000 Z
+- name: cURL
+  description: Command Line Tool and Library for Transferring Data With URLs
+  website_url: http://curl.haxx.se/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Transfer
+  image_url: https://img.stackshare.io/service/6552/curl-logo.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/distribution/docker/docker-compose.yml
+  detection_source: distribution/docker/docker-compose.yml
+  last_updated_by: Alpar Torok
+  last_updated_on: 2019-01-24 15:26:42.000000000 Z
+- name: ANTLR
+  description: Posts by Terence Parr, The ANTLR guy, about ANTLR, StringTemplate,
+    parsing, and general computer language cruft.
+  website_url: http://www.antlr.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8585/a159037c4838e54e93d9f630a295c396_normal.jpeg
+  detection_source_url: https://github.com/gangadharure/elasticsearch
+  detection_source: Repo Metadata
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/distribution/docker/docker-compose.yml
+  detection_source: distribution/docker/docker-compose.yml
+  last_updated_by: Mark Vieira
+  last_updated_on: 2021-09-29 15:07:50.000000000 Z
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch
+  detection_source: Repo Metadata
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/distribution/docker/src/docker/Dockerfile
+  detection_source: distribution/docker/src/docker/Dockerfile
+  last_updated_by: Rory Hunter
+  last_updated_on: 2021-12-13 20:42:59.000000000 Z
+- name: com.amazonaws:aws-java-sdk-core
+  description: The AWS SDK for Java - Core module holds the classes that are used
+    by the individual service clients to interact with Amazon Web Services
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-s3/build.gradle
+  detection_source: modules/repository-s3/build.gradle
+  last_updated_by: Artem Prigoda
+  last_updated_on: 2022-01-19 13:03:11.000000000 Z
+- name: com.amazonaws:aws-java-sdk-ec2
+  description: The AWS Java SDK for Amazon EC2 module holds the client classes that
+    are used for communicating with Amazon EC2 Service
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/discovery-ec2/build.gradle
+  detection_source: plugins/discovery-ec2/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-07 23:44:59.000000000 Z
+- name: com.amazonaws:aws-java-sdk-s3
+  description: The AWS Java SDK for Amazon S3 module holds the client classes that
+    is used for communicating with Amazon Simple Storage Service
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-s3/build.gradle
+  detection_source: modules/repository-s3/build.gradle
+  last_updated_by: Artem Prigoda
+  last_updated_on: 2022-01-19 13:03:11.000000000 Z
+- name: com.amazonaws:aws-java-sdk-sts
+  description: The AWS Java SDK for AWS STS module holds the client classes that are
+    used for communicating with AWS Security Token Service
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-s3/build.gradle
+  detection_source: modules/repository-s3/build.gradle
+  last_updated_by: Artem Prigoda
+  last_updated_on: 2022-01-19 13:03:11.000000000 Z
+- name: com.carrotsearch.randomizedtesting:randomizedtesting-runner
+  description: JUnit test runner and plugins for running JUnit tests with pseudo-randomness
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/client/rest-high-level/build.gradle
+  detection_source: client/rest-high-level/build.gradle
+  last_updated_by: Lee Hinman
+  last_updated_on: 2022-02-02 23:24:36.000000000 Z
+- name: com.carrotsearch:hppc
+  description: High Performance Primitive Collections
+  version: 0.8.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/server/build.gradle
+  detection_source: server/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-07 23:44:59.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-annotations
+  description: Core annotations used for value types
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/libs/dissect/build.gradle
+  detection_source: libs/dissect/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2021-02-02 21:41:39.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-core
+  description: Core Jackson processing abstractions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/client/sniffer/build.gradle
+  detection_source: client/sniffer/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2020-06-30 07:37:09.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/libs/dissect/build.gradle
+  detection_source: libs/dissect/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2020-06-12 11:34:53.000000000 Z
+- name: com.fasterxml.jackson.dataformat:jackson-dataformat-cbor
+  description: Support for reading and writing Concise Binary Object Representation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/libs/x-content/impl/build.gradle
+  detection_source: libs/x-content/impl/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-14 16:06:21.000000000 Z
+- name: com.fasterxml.jackson.dataformat:jackson-dataformat-smile
+  description: Support for reading and writing Smile
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/libs/x-content/impl/build.gradle
+  detection_source: libs/x-content/impl/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-14 16:06:21.000000000 Z
+- name: com.fasterxml.jackson.dataformat:jackson-dataformat-xml
+  description: Data format extension for Jackson
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-azure/build.gradle
+  detection_source: modules/repository-azure/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2022-02-15 13:06:22.000000000 Z
+- name: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml
+  description: Support for reading and writing YAML-encoded data via Jackson abstractions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-tools-internal/build.gradle
+  detection_source: build-tools-internal/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2022-01-27 08:57:47.000000000 Z
+- name: com.fasterxml.jackson.datatype:jackson-datatype-jsr310
+  description: Add-on module to support JSR-310
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-azure/build.gradle
+  detection_source: modules/repository-azure/build.gradle
+  last_updated_by: Armin Braun
+  last_updated_on: 2021-08-05 07:24:52.000000000 Z
+- name: com.fasterxml.jackson.module:jackson-module-jaxb-annotations
+  description: Support for using JAXB annotations as an alternative to "native" Jackson
+    annotations
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-azure/build.gradle
+  detection_source: modules/repository-azure/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2022-02-15 13:06:22.000000000 Z
+- name: com.fasterxml.woodstox:woodstox-core
+  description: Woodstox is a high-performance XML processor that implements Stax
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-azure/build.gradle
+  detection_source: modules/repository-azure/build.gradle
+  last_updated_by: Armin Braun
+  last_updated_on: 2021-08-05 07:24:52.000000000 Z
+- name: com.github.javaparser:javaparser-core
+  description: The core parser functionality. This may be all you need
+  version: 3.18.0
+  license: LGPL-2.1+,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/lang-painless/build.gradle
+  detection_source: modules/lang-painless/build.gradle
+  last_updated_by: Jack Conradson
+  last_updated_on: 2021-10-13 23:42:46.000000000 Z
+- name: com.github.spullara.mustache.java:compiler
+  description: Implementation of mustache.js for Java
+  version: 0.9.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/lang-mustache/build.gradle
+  detection_source: modules/lang-mustache/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2021-09-13 18:10:22.000000000 Z
+- name: com.google.api-client:google-api-client
+  description: Google APIs Client Library for Java
+  version: 1.32.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-gcs/build.gradle
+  detection_source: modules/repository-gcs/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-07 23:44:59.000000000 Z
+- name: com.google.api.grpc:proto-google-common-protos
+  description: PROTO library for proto-google-common-protos
+  version: 2.3.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-gcs/build.gradle
+  detection_source: modules/repository-gcs/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-07 23:44:59.000000000 Z
+- name: com.google.api:api-common
+  description: Common utilities for Google APIs in Java
+  version: 1.10.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-gcs/build.gradle
+  detection_source: modules/repository-gcs/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-07 23:44:59.000000000 Z
+- name: com.google.api:gax
+  description: Google Api eXtensions for Java
+  version: 1.66.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-gcs/build.gradle
+  detection_source: modules/repository-gcs/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-07 23:44:59.000000000 Z
+- name: com.google.apis:google-api-services-storage
+  description: Sonatype helps open source projects to set up Maven repositories on
+    https://oss.sonatype.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-gcs/build.gradle
+  detection_source: modules/repository-gcs/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-07 23:44:59.000000000 Z
+- name: com.google.auth:google-auth-library-credentials
+  description: Open source Auth client library for Java
+  version: 0.26.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-gcs/build.gradle
+  detection_source: modules/repository-gcs/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-07 23:44:59.000000000 Z
+- name: com.google.auth:google-auth-library-oauth2-http
+  version: 0.26.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-gcs/build.gradle
+  detection_source: modules/repository-gcs/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-07 23:44:59.000000000 Z
+- name: com.google.cloud:google-cloud-storage
+  description: Java idiomatic client for Google Cloud Storage
+  version: 1.117.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-gcs/build.gradle
+  detection_source: modules/repository-gcs/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-07 23:44:59.000000000 Z
+- name: com.google.code.findbugs:jsr305
+  description: JSR305 Annotations for Findbugs
+  version: 3.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/libs/core/build.gradle
+  detection_source: libs/core/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2020-06-12 11:34:53.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  version: 2.8.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-gcs/build.gradle
+  detection_source: modules/repository-gcs/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-07 23:44:59.000000000 Z
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data in Gson
+    cve_id: CVE-2022-25647
+    cve_url: https://github.com/advisories/GHSA-4jrv-ppp4-jm57
+    detected_date: May 21
+    severity: high
+    first_patched: 2.8.9
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  version: 30.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-gcs/build.gradle
+  detection_source: distribution/tools/keystore-cli/build.gradle
+  last_updated_by: Jason Tedor
+  last_updated_on: 2021-01-06 20:07:06.000000000 Z
+  vulnerabilities:
+  - name: Guava vulnerable to insecure use of temporary directory
+    cve_id: CVE-2023-2976
+    cve_url: https://github.com/advisories/GHSA-7g45-4rm6-3mm3
+    detected_date: Jun 15
+    severity: moderate
+    first_patched: 32.0.0-android
+  - name: Information Disclosure in Guava
+    cve_id: CVE-2020-8908
+    cve_url: https://github.com/advisories/GHSA-5mg8-w23w-74h3
+    detected_date: Aug 22
+    severity: low
+    first_patched: 32.0.0-android
+- name: com.google.http-client:google-http-client
+  description: Google HTTP Client Library for Java
+  version: 1.39.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-gcs/build.gradle
+  detection_source: modules/repository-gcs/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-07 23:44:59.000000000 Z
+- name: com.google.http-client:google-http-client-gson
+  description: Google HTTP Client Library for Java
+  version: 1.39.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-gcs/build.gradle
+  detection_source: modules/repository-gcs/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-07 23:44:59.000000000 Z
+- name: com.google.http-client:google-http-client-jackson2
+  description: Google HTTP Client Library for Java
+  version: 1.39.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-gcs/build.gradle
+  detection_source: modules/repository-gcs/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-07 23:44:59.000000000 Z
+- name: com.google.jimfs:jimfs
+  description: Jimfs is an in-memory implementation of Java 7's java.nio.file abstract
+    file system API
+  version: '1.2'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/qa/evil-tests/build.gradle
+  detection_source: distribution/tools/keystore-cli/build.gradle
+  last_updated_by: Jason Tedor
+  last_updated_on: 2021-01-06 20:07:06.000000000 Z
+- name: com.google.oauth-client:google-oauth-client
+  description: Google OAuth Client Library for Java
+  version: 1.31.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-gcs/build.gradle
+  detection_source: modules/repository-gcs/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-07 23:44:59.000000000 Z
+  vulnerabilities:
+  - name: Improper Verification of Cryptographic Signature in google-oauth-java-client
+    cve_id: CVE-2021-22573
+    cve_url: https://github.com/advisories/GHSA-xh97-72ww-2w58
+    detected_date: Jun 10
+    severity: high
+    first_patched: 1.33.3
+- name: com.google.protobuf:protobuf-java
+  description: Core Protocol Buffers library
+  version: 3.17.3
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-gcs/build.gradle
+  detection_source: modules/repository-gcs/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-07 23:44:59.000000000 Z
+  vulnerabilities:
+  - name: Protobuf Java vulnerable to Uncontrolled Resource Consumption
+    cve_id: CVE-2022-3510
+    cve_url: https://github.com/advisories/GHSA-4gg5-vx3j-xwc7
+    detected_date: Dec 20
+    severity: high
+    first_patched: 3.19.6
+  - name: Protobuf Java vulnerable to Uncontrolled Resource Consumption
+    cve_id: CVE-2022-3509
+    cve_url: https://github.com/advisories/GHSA-g5ww-5jh7-63cx
+    detected_date: Dec 13
+    severity: high
+    first_patched: 3.19.6
+  - name: protobuf-java has a potential Denial of Service issue
+    cve_id: CVE-2022-3171
+    cve_url: https://github.com/advisories/GHSA-h4h5-3hr4-j3g2
+    detected_date: Oct 5
+    severity: moderate
+    first_patched: 3.19.6
+- name: com.google.protobuf:protobuf-java-util
+  description: Protocol Buffers are a way of encoding structured data in an efficient
+    yet extensible format
+  version: 3.17.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-gcs/build.gradle
+  detection_source: modules/repository-gcs/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-07 23:44:59.000000000 Z
+- name: com.googlecode.juniversalchardet:juniversalchardet
+  description: Java port of universalchardet
+  version: 1.0.3
+  license: MPL-1.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/ingest-attachment/build.gradle
+  detection_source: plugins/ingest-attachment/build.gradle
+  last_updated_by: Hendrik Muhs
+  last_updated_on: 2021-03-17 07:30:40.000000000 Z
+- name: com.googlecode.owasp-java-html-sanitizer:owasp-java-html-sanitizer
+  description: A fast and easy to configure HTML Sanitizer written in Java which lets
+    you include HTML authored by third-parties in your web application while protecting
+    against XSS
+  version: '20211018.2'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/watcher/build.gradle
+  detection_source: x-pack/plugin/watcher/build.gradle
+  last_updated_by: Lee Hinman
+  last_updated_on: 2021-11-18 16:56:53.000000000 Z
+- name: com.h2database:h2
+  description: H2 Database Engine
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/sql/qa/server/build.gradle
+  detection_source: x-pack/plugin/sql/qa/server/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2020-07-07 09:29:26.000000000 Z
+- name: com.ibm.icu:icu4j
+  description: International Component for Unicode for Java
+  license: Unicode-TOU,ICU
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/analysis-icu/build.gradle
+  detection_source: plugins/analysis-icu/build.gradle
+  last_updated_by: Alan Woodward
+  last_updated_on: 2021-09-21 09:48:26.000000000 Z
+- name: com.maxmind.geoip2:geoip2
+  description: API for accessing MaxMind's GeoIP2 web service
+  version: 2.13.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/ingest-geoip/build.gradle
+  detection_source: modules/ingest-geoip/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-07 23:44:59.000000000 Z
+- name: com.nimbusds:lang-tag
+  description: Java implementation of "Tags for Identifying Languages"
+  version: 1.4.4
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/security/build.gradle
+  detection_source: x-pack/plugin/security/build.gradle
+  last_updated_by: Justin Cranford
+  last_updated_on: 2022-03-10 01:11:48.000000000 Z
+- name: com.nimbusds:nimbus-jose-jwt
+  description: Java library for Javascript Object Signing and Encryption
+  version: 9.8.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/security/build.gradle
+  detection_source: x-pack/plugin/security/build.gradle
+  last_updated_by: Justin Cranford
+  last_updated_on: 2022-03-10 01:11:48.000000000 Z
+- name: com.nimbusds:oauth2-oidc-sdk
+  description: OAuth 2.0 SDK with OpenID Connection extensions for developing client
+    and server applications
+  version: 9.3.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/security/build.gradle
+  detection_source: x-pack/plugin/security/build.gradle
+  last_updated_by: Justin Cranford
+  last_updated_on: 2022-03-10 01:11:48.000000000 Z
+- name: com.puppycrawl.tools:checkstyle
+  description: Checkstyle is a development tool to help programmers write Java code
+    that adheres to a coding standard
+  version: '9.3'
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-conventions/build.gradle
+  detection_source: build-conventions/build.gradle
+  last_updated_by: Rory Hunter
+  last_updated_on: 2022-02-07 10:34:43.000000000 Z
+- name: com.sun.jersey:jersey-client
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/discovery-azure-classic/build.gradle
+  detection_source: plugins/discovery-azure-classic/build.gradle
+  last_updated_by: Rory Hunter
+  last_updated_on: 2022-01-10 10:45:42.000000000 Z
+- name: com.sun.jersey:jersey-core
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/discovery-azure-classic/build.gradle
+  detection_source: plugins/discovery-azure-classic/build.gradle
+  last_updated_by: Rory Hunter
+  last_updated_on: 2022-01-10 10:45:42.000000000 Z
+- name: com.sun.jersey:jersey-json
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/discovery-azure-classic/build.gradle
+  detection_source: plugins/discovery-azure-classic/build.gradle
+  last_updated_by: Rory Hunter
+  last_updated_on: 2022-01-10 10:45:42.000000000 Z
+- name: com.sun.xml.bind:jaxb-impl
+  description: JAXB
+  version: 2.2.3
+  license: CDDL-1.1,CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/discovery-azure-classic/build.gradle
+  detection_source: plugins/discovery-azure-classic/build.gradle
+  last_updated_by: Rory Hunter
+  last_updated_on: 2022-01-10 10:45:42.000000000 Z
+- name: com.tdunning:t-digest
+  description: Data structure which allows accurate estimation of quantiles and related
+    rank statistics
+  version: '3.2'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/server/build.gradle
+  detection_source: server/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-07 23:44:59.000000000 Z
+- name: com.unboundid:unboundid-ldapsdk
+  description: A fast
+  version: 6.0.3
+  license: GPL-3.0-only,LGPL-3.0-only,BSD-2-Clause-FreeBSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/core/build.gradle
+  detection_source: x-pack/plugin/core/build.gradle
+  last_updated_by: Tim Vernum
+  last_updated_on: 2021-12-09 11:43:06.000000000 Z
+- name: commons-cli:commons-cli
+  description: Apache Commons CLI provides a simple API for presenting
+  version: '1.2'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/repository-hdfs/build.gradle
+  detection_source: plugins/repository-hdfs/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2022-03-02 08:55:05.000000000 Z
+- name: commons-codec:commons-codec
+  description: The Apache Commons Codec package contains simple encoder and decoders
+    for various formats such as Base64 and Hexadecimal
+  version: '1.11'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-tools-internal/build.gradle
+  detection_source: build-tools-internal/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2022-01-24 12:16:38.000000000 Z
+- name: commons-collections:commons-collections
+  description: Types that extend and augment the Java Collections Framework
+  version: 3.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/repository-hdfs/build.gradle
+  detection_source: plugins/repository-hdfs/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2022-03-02 08:55:05.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  version: '2.2'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-tools/build.gradle
+  detection_source: build-tools/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2021-06-01 09:19:30.000000000 Z
+  vulnerabilities:
+  - name: Path Traversal and Improper Input Validation in Apache Commons IO
+    cve_id: CVE-2021-29425
+    cve_url: https://github.com/advisories/GHSA-gwrp-pvrq-jmwv
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: '2.7'
+- name: commons-lang:commons-lang
+  description: Commons Lang
+  version: '2.6'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/discovery-azure-classic/build.gradle
+  detection_source: plugins/discovery-azure-classic/build.gradle
+  last_updated_by: Rory Hunter
+  last_updated_on: 2022-01-10 10:45:42.000000000 Z
+- name: commons-logging:commons-logging
+  description: Apache Commons Logging is a thin adapter allowing configurable bridging
+    to other
+  version: 1.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/repository-hdfs/build.gradle
+  detection_source: client/rest/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2021-06-01 09:19:30.000000000 Z
+- name: commons-pool:commons-pool
+  description: Commons Object Pooling Library
+  version: '1.6'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/security/build.gradle
+  detection_source: x-pack/plugin/security/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2021-09-29 07:15:49.000000000 Z
+- name: io.dropwizard.metrics:metrics-core
+  description: Metrics is a Java library which gives you unparalleled insight into
+    what your code does in production
+  version: 4.1.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/identity-provider/build.gradle
+  detection_source: x-pack/plugin/identity-provider/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2021-09-29 07:15:49.000000000 Z
+- name: io.grpc:grpc-context
+  description: 'GRPC: Context'
+  version: 1.39.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-gcs/build.gradle
+  detection_source: modules/repository-gcs/build.gradle
+  last_updated_by: Armin Braun
+  last_updated_on: 2021-07-05 19:57:30.000000000 Z
+- name: io.netty:netty-buffer
+  description: Netty project - an event-driven asynchronous network application framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-azure/build.gradle
+  detection_source: modules/repository-azure/build.gradle
+  last_updated_by: Armin Braun
+  last_updated_on: 2022-03-02 11:06:46.000000000 Z
+- name: io.netty:netty-codec
+  description: Netty is an asynchronous event-driven network application framework
+    for rapid development of maintainable high performance protocol servers and clients
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-azure/build.gradle
+  detection_source: modules/repository-azure/build.gradle
+  last_updated_by: Armin Braun
+  last_updated_on: 2022-03-02 11:06:46.000000000 Z
+- name: io.netty:netty-codec-http
+  description: Netty project - an event-driven asynchronous network application framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-azure/build.gradle
+  detection_source: modules/repository-azure/build.gradle
+  last_updated_by: Armin Braun
+  last_updated_on: 2022-03-02 11:06:46.000000000 Z
+- name: io.netty:netty-codec-http2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-azure/build.gradle
+  detection_source: modules/repository-azure/build.gradle
+  last_updated_by: Armin Braun
+  last_updated_on: 2022-03-02 11:06:46.000000000 Z
+- name: io.netty:netty-common
+  description: Netty project - an event-driven asynchronous network application framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-azure/build.gradle
+  detection_source: modules/repository-azure/build.gradle
+  last_updated_by: Armin Braun
+  last_updated_on: 2022-03-02 11:06:46.000000000 Z
+- name: io.netty:netty-handler
+  description: Netty project - an event-driven asynchronous network application framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-azure/build.gradle
+  detection_source: modules/repository-azure/build.gradle
+  last_updated_by: Armin Braun
+  last_updated_on: 2022-03-02 11:06:46.000000000 Z
+- name: io.netty:netty-handler-proxy
+  description: Netty project - an event-driven asynchronous network application framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-azure/build.gradle
+  detection_source: modules/repository-azure/build.gradle
+  last_updated_by: Armin Braun
+  last_updated_on: 2022-03-02 11:06:46.000000000 Z
+- name: io.netty:netty-resolver
+  description: Netty project - an event-driven asynchronous network application framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-azure/build.gradle
+  detection_source: modules/repository-azure/build.gradle
+  last_updated_by: Armin Braun
+  last_updated_on: 2022-03-02 11:06:46.000000000 Z
+- name: io.netty:netty-transport
+  description: Netty is an asynchronous event-driven network application framework
+    for rapid development of maintainable high performance protocol servers and clients
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-azure/build.gradle
+  detection_source: modules/repository-azure/build.gradle
+  last_updated_by: Armin Braun
+  last_updated_on: 2022-03-02 11:06:46.000000000 Z
+- name: io.opencensus:opencensus-api
+  description: 'Null'
+  version: 0.28.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-gcs/build.gradle
+  detection_source: modules/repository-gcs/build.gradle
+  last_updated_by: Armin Braun
+  last_updated_on: 2021-07-05 19:57:30.000000000 Z
+- name: io.projectreactor.netty:reactor-netty
+  description: Reactive Streams Netty driver
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-azure/build.gradle
+  detection_source: modules/repository-azure/build.gradle
+  last_updated_by: Armin Braun
+  last_updated_on: 2022-03-02 11:06:46.000000000 Z
+- name: io.projectreactor:reactor-core
+  description: Non-Blocking Reactive Foundation for the JVM
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-azure/build.gradle
+  detection_source: modules/repository-azure/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2021-06-07 17:20:46.000000000 Z
+- name: javax.inject:javax.inject
+  description: The javax.inject API
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/discovery-azure-classic/build.gradle
+  detection_source: plugins/discovery-azure-classic/build.gradle
+  last_updated_by: Artem Prigoda
+  last_updated_on: 2021-12-15 13:31:30.000000000 Z
+- name: javax.mail:mail
+  description: "${project.name}"
+  version: 1.4.5
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/discovery-azure-classic/build.gradle
+  detection_source: plugins/discovery-azure-classic/build.gradle
+  last_updated_by: Artem Prigoda
+  last_updated_on: 2021-12-15 13:31:30.000000000 Z
+- name: javax.servlet:servlet-api
+  version: '2.5'
+  license: CDDL-1.0,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/repository-hdfs/build.gradle
+  detection_source: plugins/repository-hdfs/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2022-03-02 08:55:05.000000000 Z
+- name: javax.xml.bind:jaxb-api
+  description: JAXB
+  version: 2.2.2
+  license: CDDL-1.1,CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-s3/build.gradle
+  detection_source: modules/repository-s3/build.gradle
+  last_updated_by: Artem Prigoda
+  last_updated_on: 2022-01-19 13:03:11.000000000 Z
+- name: joda-time:joda-time
+  description: Date and time library to replace JDK date handling
+  version: 2.8.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-s3/build.gradle
+  detection_source: modules/repository-s3/build.gradle
+  last_updated_by: Artem Prigoda
+  last_updated_on: 2022-01-19 13:03:11.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-tools-internal/src/testKit/testingConventions/build.gradle
+  detection_source: build-tools-internal/src/testKit/elasticsearch.build/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2020-06-30 07:37:09.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2020-15250
+    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: net.bytebuddy:byte-buddy
+  description: Byte Buddy is a Java library for creating Java classes at run time
+  version: 1.11.19
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/client/test/build.gradle
+  detection_source: client/test/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2021-10-27 20:16:18.000000000 Z
+- name: net.java.dev.jna:jna
+  description: Java Native Access
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-tools-internal/build.gradle
+  detection_source: build-tools-internal/build.gradle
+  last_updated_by: David Turner
+  last_updated_on: 2021-11-11 07:20:09.000000000 Z
+- name: net.jcip:jcip-annotations
+  version: '1.0'
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/security/build.gradle
+  detection_source: x-pack/plugin/security/build.gradle
+  last_updated_by: Justin Cranford
+  last_updated_on: 2022-03-10 01:11:48.000000000 Z
+- name: net.minidev:accessors-smart
+  description: Java reflect give poor performance on getter setter an constructor
+    calls
+  version: 2.4.2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/security/build.gradle
+  detection_source: x-pack/plugin/security/build.gradle
+  last_updated_by: Justin Cranford
+  last_updated_on: 2022-03-10 01:11:48.000000000 Z
+- name: net.minidev:json-smart
+  description: JSON
+  version: 2.4.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/security/build.gradle
+  detection_source: x-pack/plugin/security/build.gradle
+  last_updated_by: Justin Cranford
+  last_updated_on: 2022-03-10 01:11:48.000000000 Z
+  vulnerabilities:
+  - name: json-smart Uncontrolled Recursion vulnerabilty
+    cve_id: CVE-2023-1370
+    cve_url: https://github.com/advisories/GHSA-493p-pfq6-5258
+    detected_date: Mar 24
+    severity: high
+    first_patched: 2.4.9
+  - name: Out of bounds read in json-smart
+    cve_id: CVE-2021-31684
+    cve_url: https://github.com/advisories/GHSA-fg2v-w576-w4v3
+    detected_date: Feb 11
+    severity: high
+    first_patched: 2.4.4
+- name: net.sf.ehcache:ehcache
+  description: This is a pom artifact to pull in ehcache-core and ehcache-terracotta
+    for clustering
+  version: 2.10.4
+  license: Apache-2.0,QPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/security/build.gradle
+  detection_source: x-pack/plugin/security/build.gradle
+  last_updated_by: Justin Cranford
+  last_updated_on: 2022-03-10 01:11:48.000000000 Z
+- name: net.sf.jopt-simple:jopt-simple
+  description: A Java library for parsing command line options
+  version: '4.6'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/benchmarks/build.gradle
+  detection_source: benchmarks/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2020-07-07 09:29:26.000000000 Z
+- name: net.sf.supercsv:super-csv
+  description: Super CSV is a fast
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/text-structure/build.gradle
+  detection_source: x-pack/plugin/text-structure/build.gradle
+  last_updated_by: Benjamin Trent
+  last_updated_on: 2021-01-11 13:56:02.000000000 Z
+- name: net.shibboleth.utilities:java-support
+  version: 8.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/identity-provider/build.gradle
+  detection_source: x-pack/plugin/identity-provider/build.gradle
+  last_updated_by: Tim Vernum
+  last_updated_on: 2021-09-22 08:15:34.000000000 Z
+- name: org.antlr:antlr4-runtime
+  description: The ANTLR 4 Runtime
+  version: 4.5.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/lang-expression/build.gradle
+  detection_source: modules/lang-expression/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2020-06-30 07:37:09.000000000 Z
+- name: org.apache.ant:ant
+  description: Master POM
+  version: 1.10.8
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-tools-internal/build.gradle
+  detection_source: build-tools-internal/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2022-03-14 18:27:24.000000000 Z
+  vulnerabilities:
+  - name: Code injection in Apache Ant
+    cve_id: CVE-2020-11979
+    cve_url: https://github.com/advisories/GHSA-f62v-xpxf-3v68
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.10.9
+  - name: Improper Handling of Length Parameter Inconsistency in Apache Ant
+    cve_id: CVE-2021-36373
+    cve_url: https://github.com/advisories/GHSA-q5r4-cfpx-h6fh
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.10.11
+  - name: Improper Handling of Length Parameter Inconsistency in Apache Ant
+    cve_id: CVE-2021-36374
+    cve_url: https://github.com/advisories/GHSA-5v34-g2px-j4fw
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.10.11
+- name: org.apache.commons:commons-collections4
+  description: The Apache Commons Collections package contains types that extend and
+    augment the Java Collections Framework
+  version: '4.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/ingest-attachment/build.gradle
+  detection_source: plugins/ingest-attachment/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2021-04-26 12:53:55.000000000 Z
+- name: org.apache.commons:commons-compress
+  description: Apache Commons Compress software defines an API for working with compression
+    and archive formats
+  version: '1.19'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-tools-internal/build.gradle
+  detection_source: build-tools-internal/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2022-03-14 18:27:24.000000000 Z
+  vulnerabilities:
+  - name: Improper Handling of Length Parameter Inconsistency in Compress
+    cve_id: CVE-2021-36090
+    cve_url: https://github.com/advisories/GHSA-mc84-pj99-q6hh
+    detected_date: Aug 22
+    severity: high
+    first_patched: '1.21'
+  - name: Excessive Iteration in Compress
+    cve_id: CVE-2021-35515
+    cve_url: https://github.com/advisories/GHSA-7hfm-57qf-j43q
+    detected_date: Aug 22
+    severity: high
+    first_patched: '1.21'
+  - name: Improper Handling of Length Parameter Inconsistency in Compress
+    cve_id: CVE-2021-35516
+    cve_url: https://github.com/advisories/GHSA-crv7-7245-f45f
+    detected_date: Aug 22
+    severity: high
+    first_patched: '1.21'
+  - name: Improper Handling of Length Parameter Inconsistency in Compress
+    cve_id: CVE-2021-35517
+    cve_url: https://github.com/advisories/GHSA-xqfj-vm6h-2x34
+    detected_date: Aug 22
+    severity: high
+    first_patched: '1.21'
+- name: org.apache.commons:commons-configuration2
+  version: '2.7'
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/repository-hdfs/build.gradle
+  detection_source: plugins/repository-hdfs/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2022-03-02 08:55:05.000000000 Z
+  vulnerabilities:
+  - name: Code injection in Apache Commons Configuration
+    cve_id: CVE-2022-33980
+    cve_url: https://github.com/advisories/GHSA-xj57-8qj4-c4m6
+    detected_date: Jul 8
+    severity: critical
+    first_patched: 2.8.0
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/ingest-attachment/build.gradle
+  detection_source: plugins/ingest-attachment/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2021-04-26 12:53:55.000000000 Z
+- name: org.apache.commons:commons-math3
+  description: The Apache Commons Math project is a library of lightweight
+  version: '3.2'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/benchmarks/build.gradle
+  detection_source: benchmarks/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2021-04-26 12:53:55.000000000 Z
+- name: org.apache.directory.api:api-asn1-api
+  description: ASN.1 API
+  version: 1.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/security/build.gradle
+  detection_source: x-pack/plugin/security/build.gradle
+  last_updated_by: Julie Tibshirani
+  last_updated_on: 2021-10-26 17:48:18.000000000 Z
+- name: org.apache.directory.api:api-ldap-codec-standalone
+  description: This module was created to fix issue DIRSHARED-91 where the embedded
+    Felix instance inside the default LdapCodecService implementation was making it
+    very problematic to deploy t...
+  version: 1.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/security/build.gradle
+  detection_source: x-pack/plugin/security/build.gradle
+  last_updated_by: Tim Vernum
+  last_updated_on: 2021-12-09 11:43:06.000000000 Z
+- name: org.apache.directory.api:api-util
+  description: Utilities shared across this top level project
+  version: 1.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/security/build.gradle
+  detection_source: x-pack/plugin/security/build.gradle
+  last_updated_by: Julie Tibshirani
+  last_updated_on: 2021-10-26 17:48:18.000000000 Z
+- name: org.apache.directory.server:apacheds-core-api
+  description: Contains interfaces and helper classes that are part of the ApacheDS
+    Core API
+  version: 2.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/security/build.gradle
+  detection_source: x-pack/plugin/security/build.gradle
+  last_updated_by: Justin Cranford
+  last_updated_on: 2022-03-10 01:11:48.000000000 Z
+- name: org.apache.directory.server:apacheds-i18n
+  description: Internationalization of errors and other messages
+  version: 2.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/security/build.gradle
+  detection_source: x-pack/plugin/security/build.gradle
+  last_updated_by: Justin Cranford
+  last_updated_on: 2022-03-10 01:11:48.000000000 Z
+- name: org.apache.directory.server:apacheds-interceptor-kerberos
+  description: Interceptors used by the ApacheDS kerberos service
+  version: 2.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/security/build.gradle
+  detection_source: x-pack/plugin/security/build.gradle
+  last_updated_by: Justin Cranford
+  last_updated_on: 2022-03-10 01:11:48.000000000 Z
+- name: org.apache.directory.server:apacheds-jdbm-partition
+  description: JDBM BTree backed partition implementation
+  version: 2.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/security/build.gradle
+  detection_source: x-pack/plugin/security/build.gradle
+  last_updated_by: Justin Cranford
+  last_updated_on: 2022-03-10 01:11:48.000000000 Z
+- name: org.apache.directory.server:apacheds-kerberos-codec
+  description: The Kerberos protocol encoder/decoder module
+  version: 2.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/security/build.gradle
+  detection_source: x-pack/plugin/security/build.gradle
+  last_updated_by: Justin Cranford
+  last_updated_on: 2022-03-10 01:11:48.000000000 Z
+- name: org.apache.directory.server:apacheds-ldif-partition
+  description: A partition that backs it's entries and indices in AvlTrees within
+    memory
+  version: 2.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/security/build.gradle
+  detection_source: x-pack/plugin/security/build.gradle
+  last_updated_by: Justin Cranford
+  last_updated_on: 2022-03-10 01:11:48.000000000 Z
+- name: org.apache.directory.server:apacheds-protocol-kerberos
+  description: The Kerberos Protocol Provider for ApacheDS
+  version: 2.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/security/build.gradle
+  detection_source: x-pack/plugin/security/build.gradle
+  last_updated_by: Justin Cranford
+  last_updated_on: 2022-03-10 01:11:48.000000000 Z
+- name: org.apache.directory.server:apacheds-protocol-ldap
+  description: The LDAPv3 protocol provider for ApacheDS
+  version: 2.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/security/build.gradle
+  detection_source: x-pack/plugin/security/build.gradle
+  last_updated_by: Justin Cranford
+  last_updated_on: 2022-03-10 01:11:48.000000000 Z
+- name: org.apache.directory.server:apacheds-protocol-shared
+  description: Shared library that is used by all protocol providers in ApacheDS
+  version: 2.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/security/build.gradle
+  detection_source: x-pack/plugin/security/build.gradle
+  last_updated_by: Justin Cranford
+  last_updated_on: 2022-03-10 01:11:48.000000000 Z
+- name: org.apache.hadoop:hadoop-hdfs
+  description: Apache Hadoop HDFS
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/repository-hdfs/build.gradle
+  detection_source: plugins/repository-hdfs/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2022-03-02 08:55:05.000000000 Z
+- name: org.apache.hadoop:hadoop-minicluster
+  description: Apache Hadoop Mini-Cluster
+  version: 2.8.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/test/fixtures/hdfs2-fixture/build.gradle
+  detection_source: test/fixtures/hdfs2-fixture/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2020-06-30 07:37:09.000000000 Z
+- name: org.apache.httpcomponents:fluent-hc
+  description: HttpComponents Client fluent API
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/qa/os/build.gradle
+  detection_source: qa/os/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2021-04-28 21:21:01.000000000 Z
+- name: org.apache.httpcomponents:httpasyncclient
+  description: HttpComponents AsyncClient
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/client/rest/build.gradle
+  detection_source: client/rest/build.gradle
+  last_updated_by: Sylvain Wallez
+  last_updated_on: 2022-01-04 14:15:39.000000000 Z
+- name: org.apache.httpcomponents:httpclient
+  description: Apache HttpComponents Client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-tools-internal/build.gradle
+  detection_source: build-tools-internal/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2022-03-14 18:27:24.000000000 Z
+- name: org.apache.httpcomponents:httpclient-cache
+  description: HttpComponents HttpClient - Cache
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/identity-provider/build.gradle
+  detection_source: x-pack/plugin/identity-provider/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2021-12-06 18:58:56.000000000 Z
+- name: org.apache.httpcomponents:httpcore
+  description: Apache HttpComponents Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-tools-internal/build.gradle
+  detection_source: build-tools-internal/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2022-03-14 18:27:24.000000000 Z
+- name: org.apache.httpcomponents:httpcore-nio
+  description: HttpComponents Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/client/rest/build.gradle
+  detection_source: client/rest/build.gradle
+  last_updated_by: Sylvain Wallez
+  last_updated_on: 2022-01-04 14:15:39.000000000 Z
+- name: org.apache.james:apache-mime4j-core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/ingest-attachment/build.gradle
+  detection_source: plugins/ingest-attachment/build.gradle
+  last_updated_by: Dan Hermann
+  last_updated_on: 2021-07-09 19:03:02.000000000 Z
+- name: org.apache.logging.log4j:log4j-1.2-api
+  description: The Apache Log4j 1.x Compatibility API
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-gcs/build.gradle
+  detection_source: modules/repository-gcs/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2021-08-31 06:45:52.000000000 Z
+- name: org.apache.logging.log4j:log4j-api
+  description: The Apache Log4j API
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/qa/os/build.gradle
+  detection_source: qa/os/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2021-04-28 21:21:01.000000000 Z
+- name: org.apache.logging.log4j:log4j-core
+  description: The Apache Log4j Implementation
+  version: 2.11.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-tools-internal/src/testKit/thirdPartyAudit/sample_jars/build.gradle
+  detection_source: build-tools-internal/src/testKit/thirdPartyAudit/sample_jars/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2020-05-27 15:10:07.000000000 Z
+  vulnerabilities:
+  - name: Incomplete fix for Apache Log4j vulnerability
+    cve_id: CVE-2021-45046
+    cve_url: https://github.com/advisories/GHSA-7rjr-3q55-vv33
+    detected_date: Dec 14
+    severity: critical
+    first_patched: 2.12.2
+  - name: Remote code injection in Log4j
+    cve_id: CVE-2021-44228
+    cve_url: https://github.com/advisories/GHSA-jfh8-c2jp-5v3q
+    detected_date: Dec 14
+    severity: critical
+    first_patched: 2.12.2
+  - name: Apache Log4j2 vulnerable to Improper Input Validation and Uncontrolled Recursion
+    cve_id: CVE-2021-45105
+    cve_url: https://github.com/advisories/GHSA-p6xc-xr62-6r2g
+    detected_date: Dec 19
+    severity: high
+    first_patched: 2.12.3
+  - name: Improper Input Validation and Injection in Apache Log4j2
+    cve_id: CVE-2021-44832
+    cve_url: https://github.com/advisories/GHSA-8489-44mv-ggj8
+    detected_date: Jan 5
+    severity: moderate
+    first_patched: 2.12.4
+  - name: Improper validation of certificate with host mismatch in Apache Log4j SMTP
+      appender
+    cve_id: CVE-2020-9488
+    cve_url: https://github.com/advisories/GHSA-vwqq-5vrc-xw9h
+    detected_date: Jan 28
+    severity: low
+    first_patched: 2.12.3
+- name: org.apache.logging.log4j:log4j-jcl
+  description: Log4j 2.0 Commons Logging Adapter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/qa/os/build.gradle
+  detection_source: qa/os/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2021-04-28 21:21:01.000000000 Z
+- name: org.apache.logging.log4j:log4j-slf4j-impl
+  description: Binding between SLF4J API and Log4J2 Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-azure/build.gradle
+  detection_source: modules/repository-azure/build.gradle
+  last_updated_by: Przemyslaw Gomulka
+  last_updated_on: 2022-02-09 10:01:29.000000000 Z
+- name: org.apache.lucene:lucene-backward-codecs
+  description: Codecs for older versions of Lucene
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/server/build.gradle
+  detection_source: server/build.gradle
+  last_updated_by: Mayya Sharipova
+  last_updated_on: 2022-02-22 08:53:20.000000000 Z
+- name: org.apache.lucene:lucene-codecs
+  description: Codecs and postings formats for Apache Lucene
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/test/framework/build.gradle
+  detection_source: test/framework/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2021-10-27 20:16:18.000000000 Z
+- name: org.apache.lucene:lucene-core
+  description: Apache Lucene Java Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/server/build.gradle
+  detection_source: server/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-07 23:44:59.000000000 Z
+- name: org.apache.lucene:lucene-expressions
+  description: Dynamically computed values to sort/facet/search on based on a pluggable
+    grammar
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/lang-expression/build.gradle
+  detection_source: modules/lang-expression/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2020-06-30 07:37:09.000000000 Z
+- name: org.apache.lucene:lucene-grouping
+  description: Lucene Grouping Module
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/server/build.gradle
+  detection_source: server/build.gradle
+  last_updated_by: Mayya Sharipova
+  last_updated_on: 2022-02-22 08:53:20.000000000 Z
+- name: org.apache.lucene:lucene-highlighter
+  description: This is the highlighter for apache lucene java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/server/build.gradle
+  detection_source: server/build.gradle
+  last_updated_by: Mayya Sharipova
+  last_updated_on: 2022-02-22 08:53:20.000000000 Z
+- name: org.apache.lucene:lucene-join
+  description: Lucene Join Module
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/server/build.gradle
+  detection_source: server/build.gradle
+  last_updated_by: Mayya Sharipova
+  last_updated_on: 2022-02-22 08:53:20.000000000 Z
+- name: org.apache.lucene:lucene-memory
+  description: High-performance single-document index to compare against Query
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/server/build.gradle
+  detection_source: server/build.gradle
+  last_updated_by: Mayya Sharipova
+  last_updated_on: 2022-02-22 08:53:20.000000000 Z
+- name: org.apache.lucene:lucene-misc
+  description: Miscellaneous Lucene extensions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/server/build.gradle
+  detection_source: server/build.gradle
+  last_updated_by: Mayya Sharipova
+  last_updated_on: 2022-02-22 08:53:20.000000000 Z
+- name: org.apache.lucene:lucene-queries
+  description: Lucene Queries Module
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/server/build.gradle
+  detection_source: server/build.gradle
+  last_updated_by: Mayya Sharipova
+  last_updated_on: 2022-02-22 08:53:20.000000000 Z
+- name: org.apache.lucene:lucene-queryparser
+  description: Lucene QueryParsers module
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/server/build.gradle
+  detection_source: server/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-07 23:44:59.000000000 Z
+- name: org.apache.lucene:lucene-sandbox
+  description: Lucene Sandbox
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/server/build.gradle
+  detection_source: server/build.gradle
+  last_updated_by: Mayya Sharipova
+  last_updated_on: 2022-02-22 08:53:20.000000000 Z
+- name: org.apache.lucene:lucene-spatial-extras
+  description: Advanced Spatial Shape Strategies for Apache Lucene
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/legacy-geo/build.gradle
+  detection_source: modules/legacy-geo/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2022-01-24 14:28:51.000000000 Z
+- name: org.apache.lucene:lucene-spatial3d
+  description: Lucene Spatial shapes implemented using 3D planar geometry
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/libs/h3/build.gradle
+  detection_source: libs/h3/build.gradle
+  last_updated_by: Ignacio Vera
+  last_updated_on: 2022-02-02 06:44:56.000000000 Z
+- name: org.apache.lucene:lucene-suggest
+  description: Lucene Suggest Module
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/server/build.gradle
+  detection_source: server/build.gradle
+  last_updated_by: Mayya Sharipova
+  last_updated_on: 2022-02-22 08:53:20.000000000 Z
+- name: org.apache.lucene:lucene-test-framework
+  description: Apache Lucene Java Test Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/test/framework/build.gradle
+  detection_source: test/framework/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2021-10-27 20:16:18.000000000 Z
+- name: org.apache.maven:maven-model
+  description: Model for Maven POM
+  version: 3.6.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-conventions/build.gradle
+  detection_source: build-conventions/build.gradle
+  last_updated_by: Rory Hunter
+  last_updated_on: 2021-10-14 08:38:06.000000000 Z
+- name: org.apache.mina:mina-core
+  version: 2.0.17
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/security/build.gradle
+  detection_source: x-pack/plugin/security/build.gradle
+  last_updated_by: Tim Vernum
+  last_updated_on: 2021-09-22 08:15:34.000000000 Z
+  vulnerabilities:
+  - name: Cleartext Transmission of Sensitive Information in Apache MINA
+    cve_id: CVE-2019-0231
+    cve_url: https://github.com/advisories/GHSA-5h29-qq92-wj7f
+    detected_date: Jun 30
+    severity: high
+    first_patched: 2.0.21
+  - name: Infinite loop in Apache MINA
+    cve_id: CVE-2021-41973
+    cve_url: https://github.com/advisories/GHSA-6mcm-j9cj-3vc3
+    detected_date: Jan 18
+    severity: moderate
+    first_patched: 2.0.22
+- name: org.apache.pdfbox:fontbox
+  description: The Apache FontBox library is an open source Java tool to obtain low
+    level information from font files
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/ingest-attachment/build.gradle
+  detection_source: plugins/ingest-attachment/build.gradle
+  last_updated_by: Dan Hermann
+  last_updated_on: 2021-07-09 19:03:02.000000000 Z
+- name: org.apache.pdfbox:jempbox
+  description: The Apache JempBox library is an open source Java tool that implements
+    Adobe's XMP
+  version: 1.8.16
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/ingest-attachment/build.gradle
+  detection_source: plugins/ingest-attachment/build.gradle
+  last_updated_by: Dan Hermann
+  last_updated_on: 2021-07-09 19:03:02.000000000 Z
+- name: org.apache.pdfbox:pdfbox
+  description: The Apache PDFBox library is an open source Java tool for working with
+    PDF documents
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/ingest-attachment/build.gradle
+  detection_source: plugins/ingest-attachment/build.gradle
+  last_updated_by: Dan Hermann
+  last_updated_on: 2021-07-09 19:03:02.000000000 Z
+- name: org.apache.poi:poi
+  description: Apache POI - Java API To Access Microsoft Format Files
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/ingest-attachment/build.gradle
+  detection_source: plugins/ingest-attachment/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2021-04-26 12:53:55.000000000 Z
+- name: org.apache.poi:poi-ooxml
+  description: Apache POI - Java API To Access Microsoft Format Files
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/ingest-attachment/build.gradle
+  detection_source: plugins/ingest-attachment/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2021-04-26 12:53:55.000000000 Z
+- name: org.apache.poi:poi-ooxml-schemas
+  description: Apache POI - Java API To Access Microsoft Format Files
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/ingest-attachment/build.gradle
+  detection_source: plugins/ingest-attachment/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2021-04-26 12:53:55.000000000 Z
+- name: org.apache.poi:poi-scratchpad
+  description: Apache POI - Java API To Access Microsoft Format Files
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/ingest-attachment/build.gradle
+  detection_source: plugins/ingest-attachment/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2021-04-26 12:53:55.000000000 Z
+- name: org.apache.santuario:xmlsec
+  description: Apache XML Security for Java supports XML-Signature Syntax and Processing
+  version: 2.1.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/identity-provider/build.gradle
+  detection_source: x-pack/plugin/identity-provider/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2021-12-06 18:58:56.000000000 Z
+  vulnerabilities:
+  - name: Exposure of Sensitive Information to an Unauthorized Actor in Apache Santuario
+    cve_id: CVE-2021-40690
+    cve_url: https://github.com/advisories/GHSA-j8wc-gxx9-82hx
+    detected_date: Sep 21
+    severity: high
+    first_patched: 2.1.7
+  - name: Apache Santuario - XML Security for Java are vulnerable to private key disclosure
+    cve_id: CVE-2023-44483
+    cve_url: https://github.com/advisories/GHSA-xfrj-6vvc-3xm2
+    detected_date: Oct 21
+    severity: moderate
+    first_patched: 2.2.6
+- name: org.apache.tika:tika-core
+  description: This is the core Apache Tika™ toolkit library from which all other
+    modules inherit functionality
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/ingest-attachment/build.gradle
+  detection_source: plugins/ingest-attachment/build.gradle
+  last_updated_by: David Pilato
+  last_updated_on: 2021-11-23 04:01:08.000000000 Z
+- name: org.apache.tika:tika-parsers
+  description: Apache Tika is a toolkit for detecting and extracting metadata and
+    structured text content from various documents using existing parser libraries
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/ingest-attachment/build.gradle
+  detection_source: plugins/ingest-attachment/build.gradle
+  last_updated_by: David Pilato
+  last_updated_on: 2021-11-23 04:01:08.000000000 Z
+- name: org.apache.xmlbeans:xmlbeans
+  description: XmlBeans main jar
+  version: 3.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/ingest-attachment/build.gradle
+  detection_source: plugins/ingest-attachment/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2021-04-26 12:53:55.000000000 Z
+- name: org.bouncycastle:bcmail-jdk15on
+  description: The Bouncy Castle Java S/MIME APIs for handling S/MIME protocols
+  license: LAL-1.3
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/ingest-attachment/build.gradle
+  detection_source: plugins/ingest-attachment/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2021-04-26 12:53:55.000000000 Z
+- name: org.bouncycastle:bcpkix-jdk15on
+  description: The Bouncy Castle Java APIs for CMS, PKCS, EAC, TSP, CMP, CRMF, OCSP,
+    and certificate generation
+  license: LAL-1.3
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/ingest-attachment/build.gradle
+  detection_source: plugins/ingest-attachment/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2021-04-26 12:53:55.000000000 Z
+- name: org.bouncycastle:bcprov-jdk15on
+  description: The Bouncy Castle Crypto package is a Java implementation of cryptographic
+    algorithms
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/ingest-attachment/build.gradle
+  detection_source: plugins/ingest-attachment/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2021-04-26 12:53:55.000000000 Z
+- name: org.carrot2:morfologik-stemming
+  description: Morfologik Stemming APIs
+  version: 2.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/analysis-ukrainian/build.gradle
+  detection_source: plugins/analysis-ukrainian/build.gradle
+  last_updated_by: Alan Woodward
+  last_updated_on: 2021-09-21 09:48:26.000000000 Z
+- name: org.ccil.cowan.tagsoup:tagsoup
+  description: TagSoup is a SAX-compliant parser written in Java that
+  version: 1.2.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/ingest-attachment/build.gradle
+  detection_source: plugins/ingest-attachment/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2021-04-26 12:53:55.000000000 Z
+- name: org.codehaus.jackson:jackson-core-asl
+  description: Jackson is a high-performance JSON processor
+  version: 1.9.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/discovery-azure-classic/build.gradle
+  detection_source: plugins/discovery-azure-classic/build.gradle
+  last_updated_by: Rory Hunter
+  last_updated_on: 2022-01-10 10:45:42.000000000 Z
+- name: org.codehaus.jackson:jackson-jaxrs
+  description: Jax-RS provider for JSON content type
+  version: 1.9.2
+  license: LGPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/discovery-azure-classic/build.gradle
+  detection_source: plugins/discovery-azure-classic/build.gradle
+  last_updated_by: Rory Hunter
+  last_updated_on: 2022-01-10 10:45:42.000000000 Z
+- name: org.codehaus.jackson:jackson-mapper-asl
+  description: Data Mapper package is a high-performance data binding package built
+    on Jackson JSON processor
+  version: 1.9.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/discovery-azure-classic/build.gradle
+  detection_source: plugins/discovery-azure-classic/build.gradle
+  last_updated_by: Rory Hunter
+  last_updated_on: 2022-01-10 10:45:42.000000000 Z
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data in org.codehaus.jackson:jackson-mapper-asl
+    cve_id: CVE-2019-10202
+    cve_url: https://github.com/advisories/GHSA-c27h-mcmw-48hv
+    detected_date: Feb 21
+    severity: critical
+    first_patched: 
+  - name: Improper Restriction of XML External Entity Reference in jackson-mapper-asl
+    cve_id: CVE-2019-10172
+    cve_url: https://github.com/advisories/GHSA-r6j9-8759-g62w
+    detected_date: Aug 22
+    severity: high
+    first_patched: 
+- name: org.codehaus.jackson:jackson-xc
+  description: Extensions that provide interoperability support for Jackson JSON processor's
+    data binding functionality
+  version: 1.9.2
+  license: LGPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/discovery-azure-classic/build.gradle
+  detection_source: plugins/discovery-azure-classic/build.gradle
+  last_updated_by: Rory Hunter
+  last_updated_on: 2022-01-10 10:45:42.000000000 Z
+- name: org.codehaus.jettison:jettison
+  description: A StAX implementation for JSON
+  version: '1.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/discovery-azure-classic/build.gradle
+  detection_source: plugins/discovery-azure-classic/build.gradle
+  last_updated_by: Rory Hunter
+  last_updated_on: 2022-01-10 10:45:42.000000000 Z
+  vulnerabilities:
+  - name: Jettison vulnerable to infinite recursion
+    cve_id: CVE-2023-1436
+    cve_url: https://github.com/advisories/GHSA-q6g2-g7f3-rr83
+    detected_date: Mar 23
+    severity: high
+    first_patched: 1.5.4
+  - name: Jettison Out-of-bounds Write vulnerability
+    cve_id: CVE-2022-45693
+    cve_url: https://github.com/advisories/GHSA-grr4-wv38-f68w
+    detected_date: Jan 5
+    severity: high
+    first_patched: 1.5.2
+  - name: Jettison Out-of-bounds Write vulnerability
+    cve_id: CVE-2022-45685
+    cve_url: https://github.com/advisories/GHSA-7rf3-mqpx-h7xg
+    detected_date: Jan 5
+    severity: high
+    first_patched: 1.5.2
+  - name: Jettison memory exhaustion
+    cve_id: CVE-2022-40150
+    cve_url: https://github.com/advisories/GHSA-x27m-9w8j-5vcw
+    detected_date: Sep 30
+    severity: high
+    first_patched: 1.5.2
+  - name: Jettison parser crash by stackoverflow
+    cve_id: CVE-2022-40149
+    cve_url: https://github.com/advisories/GHSA-56h3-78gp-v83r
+    detected_date: Sep 21
+    severity: moderate
+    first_patched: 1.5.1
+- name: org.codehaus.woodstox:stax2-api
+  description: Tax2 API is an extension to basic Stax 1.0 API that adds significant
+    new functionality
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-azure/build.gradle
+  detection_source: modules/repository-azure/build.gradle
+  last_updated_by: Przemyslaw Gomulka
+  last_updated_on: 2022-02-09 10:01:29.000000000 Z
+- name: org.cryptacular:cryptacular
+  description: The spectacular complement to the Bouncy Castle crypto API for Java
+  version: 1.2.4
+  license: Apache-2.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/identity-provider/build.gradle
+  detection_source: x-pack/plugin/identity-provider/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2021-12-06 18:58:56.000000000 Z
+- name: org.fusesource.jansi:jansi
+  description: Jansi is a java library for generating and interpreting ANSI escape
+    sequences
+  version: 2.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/distribution/tools/ansi-console/build.gradle
+  detection_source: distribution/tools/ansi-console/build.gradle
+  last_updated_by: Ioannis Kakavas
+  last_updated_on: 2022-02-07 09:44:37.000000000 Z
+- name: org.hamcrest:hamcrest
+  description: Core API and libraries of hamcrest matcher framework
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-tools-internal/build.gradle
+  detection_source: build-tools-internal/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2022-03-14 18:27:24.000000000 Z
+- name: org.hamcrest:hamcrest-core
+  description: Core Hamcrest API - deprecated
+  version: '1.3'
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-tools-internal/src/testKit/elasticsearch.build/build.gradle
+  detection_source: build-tools-internal/src/testKit/elasticsearch.build/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2020-06-30 14:20:02.000000000 Z
+- name: org.hdrhistogram:HdrHistogram
+  description: HdrHistogram supports the recording and analyzing sampled data value
+    counts across a configurable integer value range with configurable value precision
+    within the range
+  version: 2.1.9
+  license: Unlicense,CC0-1.0,BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/server/build.gradle
+  detection_source: server/build.gradle
+  last_updated_by: Mayya Sharipova
+  last_updated_on: 2022-02-22 08:53:20.000000000 Z
+- name: org.ini4j:ini4j
+  description: Java API for handling configuration files in Windows .ini format
+  version: 0.5.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/ml/build.gradle
+  detection_source: x-pack/plugin/ml/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2022-03-04 18:11:17.000000000 Z
+  vulnerabilities:
+  - name: 'org.ini4j allows attackers to cause a Denial of Service (DoS) '
+    cve_id: CVE-2022-41404
+    cve_url: https://github.com/advisories/GHSA-jr6h-r7vg-f9mc
+    detected_date: Oct 18
+    severity: high
+    first_patched: 0.5.4
+- name: org.jruby.joni:joni
+  description: 'Java port of Oniguruma: http://www.geocities.jp/kosako3/oniguruma
+    that uses byte arrays directly instead of java Strings and chars'
+  version: 2.1.29
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/libs/grok/build.gradle
+  detection_source: libs/grok/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2020-06-30 07:37:09.000000000 Z
+- name: org.jsoup:jsoup
+  description: Jsoup is a Java library for working with real-world HTML
+  version: 1.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/lang-painless/build.gradle
+  detection_source: modules/lang-painless/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2021-06-22 12:46:15.000000000 Z
+  vulnerabilities:
+  - name: Uncaught Exception in jsoup
+    cve_id: CVE-2021-37714
+    cve_url: https://github.com/advisories/GHSA-m72m-mhq2-9p6c
+    detected_date: Aug 24
+    severity: high
+    first_patched: 1.14.2
+  - name: jsoup may not sanitize code injection XSS attempts if SafeList.preserveRelativeLinks
+      is enabled
+    cve_id: CVE-2022-36033
+    cve_url: https://github.com/advisories/GHSA-gp7f-rwcx-9369
+    detected_date: Sep 2
+    severity: moderate
+    first_patched: 1.15.3
+- name: org.junit.jupiter:junit-jupiter
+  description: Module "junit-jupiter" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-tools-internal/build.gradle
+  detection_source: build-tools-internal/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2022-03-14 18:27:24.000000000 Z
+- name: org.junit.platform:junit-platform-launcher
+  description: Module "junit-platform-launcher" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-tools-internal/build.gradle
+  detection_source: build-tools-internal/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2022-03-14 18:27:24.000000000 Z
+- name: org.junit.vintage:junit-vintage-engine
+  description: Module "junit-vintage-engine" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-tools-internal/build.gradle
+  detection_source: build-tools-internal/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2022-03-14 18:27:24.000000000 Z
+- name: org.locationtech.jts:jts-core
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/legacy-geo/build.gradle
+  detection_source: modules/legacy-geo/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-07 23:44:59.000000000 Z
+- name: org.lz4:lz4-java
+  description: Java ports and bindings of the LZ4 compression algorithm and the xxHash
+    hashing algorithm
+  version: 1.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/libs/lz4/build.gradle
+  detection_source: libs/lz4/build.gradle
+  last_updated_by: Tim Brooks
+  last_updated_on: 2021-09-09 18:53:35.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  version: 1.9.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-tools-internal/build.gradle
+  detection_source: build-tools-internal/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2022-03-14 18:27:24.000000000 Z
+- name: org.objenesis:objenesis
+  description: A library for instantiating Java objects
+  version: '3.2'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/client/test/build.gradle
+  detection_source: client/test/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2021-10-27 20:16:18.000000000 Z
+- name: org.opensaml:opensaml-core
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/identity-provider/build.gradle
+  detection_source: x-pack/plugin/identity-provider/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2021-12-06 18:58:56.000000000 Z
+- name: org.opensaml:opensaml-saml-api
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/identity-provider/build.gradle
+  detection_source: x-pack/plugin/identity-provider/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2021-12-06 18:58:56.000000000 Z
+- name: org.opensaml:opensaml-saml-impl
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/identity-provider/build.gradle
+  detection_source: x-pack/plugin/identity-provider/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2021-12-06 18:58:56.000000000 Z
+- name: org.opensaml:opensaml-security-api
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/identity-provider/build.gradle
+  detection_source: x-pack/plugin/identity-provider/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2021-12-06 18:58:56.000000000 Z
+- name: org.opensaml:opensaml-security-impl
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/identity-provider/build.gradle
+  detection_source: x-pack/plugin/identity-provider/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2021-12-06 18:58:56.000000000 Z
+- name: org.opensaml:opensaml-soap-api
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/identity-provider/build.gradle
+  detection_source: x-pack/plugin/identity-provider/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2021-12-06 18:58:56.000000000 Z
+- name: org.opensaml:opensaml-storage-impl
+  description: Storage Implementation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/identity-provider/build.gradle
+  detection_source: x-pack/plugin/identity-provider/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2021-12-06 18:58:56.000000000 Z
+- name: org.opensaml:opensaml-xmlsec-impl
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/identity-provider/build.gradle
+  detection_source: x-pack/plugin/identity-provider/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2021-12-06 18:58:56.000000000 Z
+- name: org.ow2.asm:asm
+  description: ASM
+  version: '9.2'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-tools-internal/build.gradle
+  detection_source: build-tools-internal/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2022-03-14 18:27:24.000000000 Z
+- name: org.ow2.asm:asm-analysis
+  description: Static code analysis API of ASM
+  version: '7.2'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/lang-painless/build.gradle
+  detection_source: modules/lang-painless/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2021-06-22 12:46:15.000000000 Z
+- name: org.ow2.asm:asm-commons
+  description: Usefull class adapters based on ASM
+  version: 5.0.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/lang-expression/build.gradle
+  detection_source: modules/lang-expression/build.gradle
+  last_updated_by: Jake Landis
+  last_updated_on: 2021-04-02 16:20:54.000000000 Z
+- name: org.ow2.asm:asm-tree
+  description: Tree API of ASM
+  version: '9.2'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-tools-internal/build.gradle
+  detection_source: build-tools-internal/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2022-03-14 18:27:24.000000000 Z
+- name: org.ow2.asm:asm-util
+  description: Utilities for ASM
+  version: '7.2'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/lang-painless/build.gradle
+  detection_source: modules/lang-painless/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2021-06-22 12:46:15.000000000 Z
+- name: org.reactivestreams:reactive-streams
+  description: A Protocol for Asynchronous Non-Blocking Data Sequence
+  license: MIT-0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-azure/build.gradle
+  detection_source: modules/repository-azure/build.gradle
+  last_updated_by: Armin Braun
+  last_updated_on: 2022-03-02 11:06:46.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  version: 1.7.25
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/sql/qa/server/build.gradle
+  detection_source: modules/repository-azure/build.gradle
+  last_updated_by: Przemyslaw Gomulka
+  last_updated_on: 2022-02-09 10:01:29.000000000 Z
+- name: org.spockframework:spock-core
+  description: Spock is a testing and specification framework for Java and Groovy
+    applications
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/build-tools-internal/build.gradle
+  detection_source: build-tools-internal/build.gradle
+  last_updated_by: Mark Vieira
+  last_updated_on: 2022-03-14 18:27:24.000000000 Z
+- name: org.subethamail:subethasmtp
+  description: SubEtha SMTP is an easy-to-use server-side SMTP library for Java
+  version: 3.1.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/x-pack/plugin/watcher/build.gradle
+  detection_source: x-pack/plugin/watcher/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2020-06-30 07:37:09.000000000 Z
+- name: org.threeten:threetenbp
+  description: Backport of JSR-310 from JDK 8 to JDK 7 and JDK 6
+  version: 1.5.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/modules/repository-gcs/build.gradle
+  detection_source: modules/repository-gcs/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2021-08-31 06:45:52.000000000 Z
+- name: org.tukaani:xz
+  description: XZ data compression
+  version: '1.8'
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/plugins/ingest-attachment/build.gradle
+  detection_source: plugins/ingest-attachment/build.gradle
+  last_updated_by: Rene Groeschke
+  last_updated_on: 2021-04-26 12:53:55.000000000 Z
+- name: org.yaml:snakeyaml
+  description: YAML 1.1 parser and emitter for Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/elasticsearch/blob/master/distribution/tools/launchers/build.gradle
+  detection_source: distribution/tools/launchers/build.gradle
+  last_updated_by: Ryan Ernst
+  last_updated_on: 2022-03-07 23:44:59.000000000 Z
