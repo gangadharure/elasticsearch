@@ -84,7 +84,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [gangadharure/elasticsearch](https://github.com/gangadharure/elasticsearch)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|229<br/>Tools used|02/15/24 <br/>Report generated|
+|229<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -489,7 +489,7 @@ Full tech stack [here](/techstack.md)
 |[org.antlr:antlr4-runtime](http://antlr.org)|v4.5.1|06/30/20|Rene Groeschke |BSD-3-Clause|N/A|
 |[org.apache.ant:ant](http://ant.apache.org/)|v1.10.8|03/14/22|Mark Vieira |Apache-2.0|[CVE-2020-11979](https://github.com/advisories/GHSA-f62v-xpxf-3v68) (High)<br/>[CVE-2021-36373](https://github.com/advisories/GHSA-q5r4-cfpx-h6fh) (Moderate)<br/>[CVE-2021-36374](https://github.com/advisories/GHSA-5v34-g2px-j4fw) (Moderate)|
 |[org.apache.commons:commons-collections4](https://commons.apache.org/proper/commons-collections/)|v4.1|04/26/21|Rene Groeschke |Apache-2.0|N/A|
-|[org.apache.commons:commons-compress](https://commons.apache.org/proper/commons-compress/)|v1.19|03/14/22|Mark Vieira |Apache-2.0|[CVE-2021-36090](https://github.com/advisories/GHSA-mc84-pj99-q6hh) (High)<br/>[CVE-2021-35515](https://github.com/advisories/GHSA-7hfm-57qf-j43q) (High)<br/>[CVE-2021-35516](https://github.com/advisories/GHSA-crv7-7245-f45f) (High)<br/>[CVE-2021-35517](https://github.com/advisories/GHSA-xqfj-vm6h-2x34) (High)|
+|[org.apache.commons:commons-compress](https://commons.apache.org/proper/commons-compress/)|v1.19|03/14/22|Mark Vieira |Apache-2.0|[CVE-2024-25710](https://github.com/advisories/GHSA-4g9r-vxhx-9pgx) (High)<br/>[CVE-2021-35515](https://github.com/advisories/GHSA-7hfm-57qf-j43q) (High)<br/>[CVE-2021-35516](https://github.com/advisories/GHSA-crv7-7245-f45f) (High)<br/>[CVE-2021-35517](https://github.com/advisories/GHSA-xqfj-vm6h-2x34) (High)<br/>[CVE-2021-36090](https://github.com/advisories/GHSA-mc84-pj99-q6hh) (High)|
 |[org.apache.commons:commons-configuration2]()|v2.7|03/02/22|Rene Groeschke |N/A|[CVE-2022-33980](https://github.com/advisories/GHSA-xj57-8qj4-c4m6) (Critical)|
 |[org.apache.commons:commons-lang3](http://commons.apache.org/proper/commons-lang/)|N/A|04/26/21|Rene Groeschke |Apache-2.0|N/A|
 |[org.apache.commons:commons-math3](http://commons.apache.org/proper/commons-math/)|v3.2|04/26/21|Rene Groeschke |Apache-2.0|N/A|
