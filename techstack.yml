@@ -2,7 +2,7 @@ repo_name: gangadharure/elasticsearch
 report_id: ff74e2d091e780fb5bbe4fe63ca67e1b
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-15T15:42:25+00:00'
+timestamp: '2024-02-29T20:04:21+00:00'
 requested_by: luigidellaquila
 provider: github
 branch: master
@@ -1662,12 +1662,13 @@ tools:
   last_updated_by: Mark Vieira
   last_updated_on: 2022-03-14 18:27:24.000000000 Z
   vulnerabilities:
-  - name: Improper Handling of Length Parameter Inconsistency in Compress
-    cve_id: CVE-2021-36090
-    cve_url: https://github.com/advisories/GHSA-mc84-pj99-q6hh
-    detected_date: Aug 22
+  - name: 'Apache Commons Compress: Denial of service caused by an infinite loop for
+      a corrupted DUMP file'
+    cve_id: CVE-2024-25710
+    cve_url: https://github.com/advisories/GHSA-4g9r-vxhx-9pgx
+    detected_date: Feb 29
     severity: high
-    first_patched: '1.21'
+    first_patched: 1.26.0
   - name: Excessive Iteration in Compress
     cve_id: CVE-2021-35515
     cve_url: https://github.com/advisories/GHSA-7hfm-57qf-j43q
@@ -1683,6 +1684,12 @@ tools:
   - name: Improper Handling of Length Parameter Inconsistency in Compress
     cve_id: CVE-2021-35517
     cve_url: https://github.com/advisories/GHSA-xqfj-vm6h-2x34
+    detected_date: Aug 22
+    severity: high
+    first_patched: '1.21'
+  - name: Improper Handling of Length Parameter Inconsistency in Compress
+    cve_id: CVE-2021-36090
+    cve_url: https://github.com/advisories/GHSA-mc84-pj99-q6hh
     detected_date: Aug 22
     severity: high
     first_patched: '1.21'
